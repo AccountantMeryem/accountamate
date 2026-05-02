@@ -1,86 +1,36 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>AccountaMate | Smart Bookkeeping</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+<section id="contact" class="section contact-wrapper">
+  <h2>Get in Touch</h2>
+  <p class="contact-subtext">Have a question or need help? Send a message or reach out directly.</p>
 
-<header class="navbar">
-  <h1 class="logo">AccountaMate</h1>
-  <a href="#contact" class="nav-btn">Get Started</a>
-</header>
+  <div class="contact-container">
 
-<section class="hero">
-  <h2>Bookkeeping Made Simple.</h2>
-  <p>We handle your finances with clarity and efficiency—so you can focus on growing your business.</p>
-  <a href="#services" class="btn-primary">Explore Services</a>
-</section>
+    <!-- Form -->
+    <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="contact-form">
 
-<section id="services" class="section">
-  <h2>Our Services</h2>
-  <div class="grid">
+      <div class="form-row">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+      </div>
 
-    <div class="card">
-      <h3>Monthly Bookkeeping</h3>
-      <p>Stay organized with accurate tracking of income and expenses.</p>
-    </div>
+      <textarea name="message" placeholder="How can we help you?" rows="6" required></textarea>
 
-    <div class="card">
-      <h3>Financial Reporting</h3>
-      <p>Understand your numbers with clear, easy-to-read reports.</p>
-    </div>
+      <button type="submit" class="btn-primary">Send Message</button>
+    </form>
 
-    <div class="card">
-      <h3>Cleanup & Catch-Up</h3>
-      <p>Behind on your books? We’ll bring everything up to date.</p>
-    </div>
+    <!-- Contact Info -->
+    <div class="contact-info">
+      <h3>Contact Details</h3>
 
-    <div class="card">
-      <h3>Automation Setup</h3>
-      <p>We streamline your systems to reduce manual work.</p>
-    </div>
+      <p><strong>Email:</strong><br>
+      <a href="mailto:meryemyuksel@live.com">meryemyuksel@live.com</a></p>
 
-    <div class="card">
-      <h3>Payroll Assistance</h3>
-      <p>Reliable support to keep your team paid correctly and on time.</p>
-    </div>
+      <p><strong>Phone:</strong><br>
+      <a href="tel:13219468885">(321) 946-8885</a></p>
 
-    <div class="card">
-      <h3>Consulting</h3>
-      <p>Expert advice to improve your financial processes.</p>
+      <div class="contact-note">
+        <p>We typically respond within 24 hours.</p>
+      </div>
     </div>
 
   </div>
 </section>
-
-<section class="section alt">
-  <h2>Why AccountaMate?</h2>
-  <ul class="features">
-    <li>✔ Simple, efficient bookkeeping</li>
-    <li>✔ Clear financial insights</li>
-    <li>✔ Reliable and secure systems</li>
-    <li>✔ Personalized support</li>
-  </ul>
-</section>
-
-<section id="contact" class="section contact">
-  <h2>Get Started</h2>
-  <p>Send us a message and we’ll get back to you.</p>
-
-  <form action="https://formspree.io/f/YOUR_FORM_ID" method="POST" class="contact-form">
-    <input type="text" name="name" placeholder="Your Name" required>
-    <input type="email" name="email" placeholder="Your Email" required>
-    <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
-    <button type="submit" class="btn-primary">Send Message</button>
-  </form>
-</section>
-
-<footer>
-  <p>© 2026 AccountaMate. All rights reserved.</p>
-</footer>
-
-</body>
-</html>
